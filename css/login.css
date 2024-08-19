@@ -1,0 +1,145 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 500px;
+  background-color: #12156c;
+  width: 1100px;
+  border-radius: 20px;
+  box-shadow: -10px 10px 4px 0px rgba(0, 0, 0, 0.363);
+}
+
+.boxlogin {
+  background-color: #bdbadf;
+  height: 500px;
+  width: 45%;
+  float: right;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.img-home {
+  height: 450px;
+  position: relative;
+  top: 5%;
+  left: 10%;
+  opacity: 0.3;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  width: 400px;
+  top: 30%;
+  margin-left: 50px;
+}
+
+.text h1 {
+  font-size: 70px;
+}
+
+h2 {
+  position: absolute;
+  top: 150px;
+}
+
+.box-input {
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  border-radius: 20px;
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+.box-input h1 {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  width: 400px;
+  top: 15%;
+  color: #12156c;
+  font-weight: bold;
+}
+
+.img-user {
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+  right: 21%;
+  top: 18%;
+}
+
+.input-wrap {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  text-align: center;
+}
+
+.input-wrap input[type="text"],
+.input-wrap input[type="password"] {
+  height: 30px;
+  width: 320px;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #bdbadf;
+  margin: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-wrap input[type="text"]:focus,
+.input-wrap input[type="password"]:focus {
+  border-bottom: 2px solid #bdbadf;
+}
+
+.btn {
+  height: 35px;
+  width: 120px;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: #bdbadf;
+  border: none;
+  color: rgba(116, 116, 116, 0.699);
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #5458c0;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #08ca12;
+  cursor: pointer;
+}
+
+.icon-login {
+  width: 60px;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  right: 90%;
+}
+
+.icon-login img {
+  width: 20px;
+  margin-top: 55%;
+}

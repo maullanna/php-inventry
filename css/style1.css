@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.category-box {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+button {
+  margin: 5px;
+}
+#addModal,
+#editModal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
