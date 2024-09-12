@@ -2,14 +2,14 @@
 include 'function.php';
 // proses_login
 if (isset($_POST['login'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $username = mysqli_real_escape_string($koneksi, $_POST['username']);
+    $password = mysqli_real_escape_string($koneksi, $_POST['password']);
+    
     //$cekdatabase untuk nyambungin ke database
     $cekdatabase = mysqli_query($koneksi, "SELECT * FROM login WHERE username='$username' AND password='$password'");
     //kemudian hitung apakah ada di database di tabel login dari si ursename dan password yang cocok
     $hitung = mysqli_num_rows($cekdatabase);
-  
-    
+$cekdata = mysqli_query($koneksi, "SELECT * FROM login where username='$username' AND password='$password'");    
     if ($hitung > 0) {
       $_SESSION['log'] = 'True';
         header('location:index.php');

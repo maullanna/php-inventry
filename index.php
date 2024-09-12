@@ -2,7 +2,6 @@
 <html lang="en">
 <?php
 include 'function.php'; // Pastikan file koneksi database atau konfigurasi
-
 ?>
 
 
@@ -112,12 +111,13 @@ include 'function.php'; // Pastikan file koneksi database atau konfigurasi
                                 <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
                                     data-bs-parent="#sidenavAccordionPages">
                                     <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="#">ID Pegawai</a>
-                                        <a class="nav-link" href="#">Nama</a>
-                                        <a class="nav-link" href="#">Tanggal Lahir</a>
-                                        <a class="nav-link" href="#">Departemen</a>
-                                        <a class="nav-link" href="#">Level</a>
-                                        <a class="nav-link" href="#">Status</a>
+                                        <a class="nav-link" href="data_pegawai.php">ID Pegawai</a>
+                                         
+                                        <a class="nav-link" href="data_pegawai.php">Nama</a>
+                                        <a class="nav-link" href="data_pegawai.php">Tanggal Lahir</a>
+                                        <a class="nav-link" href="data_pegawai.php">Departemen</a>
+                                        <a class="nav-link" href="data_pegawai.php">Level</a>
+                                        <a class="nav-link" href="data_pegawai.php">Status</a>
                                     </nav>
                                 </div>
                                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" aria-expanded="false"
